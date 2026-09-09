@@ -275,6 +275,19 @@ function About() {
                   </div>
                 ))}
               </div>
+              <div className="border-l-4 border-accent-500 bg-steel-50 rounded-r-lg p-5 mb-8">
+                <div className="flex items-center gap-2 text-accent-600 text-xs font-semibold uppercase tracking-widest mb-2">
+                  <Network size={15} />
+                  Featured Project
+                </div>
+                <h3 className="font-display font-bold text-navy-900 text-lg mb-3">Optical Fibre Project (Ayodhya)</h3>
+                <p className="text-steel-600 text-sm leading-relaxed mb-3">
+                  Bharti Airtel is undertaking a <strong className="text-navy-800">37 km Optical Fibre Cable (OFC) deployment in Ayodhya</strong>. The project scope covers end-to-end execution including HDPE duct laying via HDD, manhole installation, OFC blowing and jointing, and all associated works required to make the link Live / ATC.
+                </p>
+                <p className="text-steel-600 text-sm leading-relaxed">
+                  Delivery will be managed in line with Airtel&apos;s specifications and quality standards, with full provision of labor, equipment, machinery, transportation, and consumables. The scope ensures <strong className="text-navy-800">seamless commissioning and handover of the link in Live / ATC condition</strong>.
+                </p>
+              </div>
               <div className="flex flex-wrap gap-4">
                 <a href="#services" className="bg-navy-900 hover:bg-navy-700 text-white font-semibold px-6 py-3 rounded text-sm flex items-center gap-2 transition-colors">
                   Our Services <ArrowRight size={16} />
